@@ -1,0 +1,47 @@
+h1 {
+    color: rgb(102, 17, 221);
+    text-align: center;
+  }
+
+.box{
+	background-color:#000000;
+	color: #FF691F;
+	border-radius: 25px;
+	padding:25px;
+	border:2px solid black;
+	text-align: center;
+	font:20px 'Times new roman', serif; 
+}
+
+#boxlist{
+	background-color:#000000;
+	color: #FF691F;
+	border-radius: 25px;
+	padding:25px;
+	border:2px solid black;
+	font:20px 'Times new roman', serif; 
+	text-align: left;
+}
+
+#centre{
+	float:left;
+	width: 60%;
+	margin-left:120px;
+	margin-bottom:30px;
+	background-color:#7004fe;
+}
+		
+body{
+	font-size: 20px;
+	line-height:25px;
+	clear:both;
+	background-color: lightblue;
+}
+
+.formInputFormat{
+	border: 1px solid #fecb04;
+	border-radius:10px;
+	width:50%;
+	min-height: 40px;
+	background-color:#fecb04;
+}

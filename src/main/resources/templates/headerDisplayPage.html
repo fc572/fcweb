@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+</html>
+    <head>
+        <title>Code Response page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <p th:text="'host: ' + ${host} " />
+        <p th:text="'connection:' + ${connection} " />
+        <p th:text="'cache_control:' + ${cache_control} " />
+        <p th:text="'sec_ch_ua:' + ${sec_ch_ua} " />
+        <p th:text="'sec_ch_ua_mobile:' + ${sec_ch_ua_mobile} " />
+        <p th:text="'sec_ch_ua_platform:' + ${sec_ch_ua_platform} " />
+        <p th:text="'upgrade_insecure_requests:' + ${upgrade_insecure_requests} " />
+        <p th:text="'user_agent:' + ${user_agent} " />
+        <p th:text="'accept:' + ${accept} " />
+        <p th:text="'sec_fetch_site:' + ${sec_fetch_site} " />
+        <p th:text="'sec_fetch_mode:' + ${sec_fetch_mode} " />
+        <p th:text="'sec_fetch_user:' + ${sec_fetch_user} " />
+        <p th:text="'sec_fetch_dest:' + ${sec_fetch_dest} " />
+        <p th:text="'accept_encoding:' + ${accept_encoding} " />
+        <p th:text="'accept_language:' + ${accept_language} " />
+    </body>
+</html>
